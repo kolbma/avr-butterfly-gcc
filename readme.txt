@@ -12,6 +12,12 @@
 
 ===================================================
 
+  The original source is only available via
+  web.archive.org:
+  https://web.archive.org/web/20130906155820/http://www.siwawi.arubi.uni-kl.de/avr_projects
+
+===================================================
+
 
 Disclaimer:
 -----------
