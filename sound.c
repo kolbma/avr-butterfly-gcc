@@ -91,9 +91,9 @@ const int Minuet[] PROGMEM =
         };
 
 
-char TEXT_SONG4[] PROGMEM    = "Auld Lang Syne";
+const char TEXT_SONG4[] PROGMEM    = "Auld Lang Syne";
 
-int AuldLangSyne[] PROGMEM = 
+const int AuldLangSyne[] PROGMEM = 
         {  
             3, 
             4,g2, 2,c3, 8,c3, 4,c3, 4,e3, 2,d3, 8,c3, 4,d3, 8,e3, 8,d3, 2,c3, 
@@ -166,10 +166,10 @@ const int Exorcist[] PROGMEM =
 
 // pointer-array with pointers to the song arrays
 // mt: __flash int __flash *Songs[]    = { FurElise, Mozart, /*Minuet, AuldLangSyne,*/ Sirene1, Sirene2, Whistle, 0};
-const int *Songs[] PROGMEM   = { FurElise, Mozart, Minuet, AuldLangSyne, Sirene1, Sirene2, Whistle, Exorcist, 0 };
+const int *const Songs[] PROGMEM   = { FurElise, Mozart, Minuet, AuldLangSyne, Sirene1, Sirene2, Whistle, Exorcist, 0 };
 
 //mt: __flash char __flash *TEXT_SONG_TBL[]    = { TEXT_SONG1, TEXT_SONG2, /*TEXT_SONG3, TEXT_SONG4,*/TEXT_SONG5, TEXT_SONG6, TEXT_SONG7, 0};
-PGM_P TEXT_SONG_TBL[] PROGMEM   = { TEXT_SONG1, TEXT_SONG2, TEXT_SONG3, TEXT_SONG4, TEXT_SONG5, TEXT_SONG6, TEXT_SONG7, TEXT_SONG8, 0 };
+PGM_P const TEXT_SONG_TBL[] PROGMEM   = { TEXT_SONG1, TEXT_SONG2, TEXT_SONG3, TEXT_SONG4, TEXT_SONG5, TEXT_SONG6, TEXT_SONG7, TEXT_SONG8, 0 };
 // const char *TEXT_SONG_TBL[]    = { TEXT_SONG1, TEXT_SONG2, TEXT_SONG3, TEXT_SONG4, TEXT_SONG5, TEXT_SONG6, TEXT_SONG7, 0};
 
 //__flash char PLAYING[]          = "PLAYING";
